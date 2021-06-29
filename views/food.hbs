@@ -1,0 +1,50 @@
+<div class="page-header">
+    <h1>Motivation for Strava </h1>
+</div>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Главная</a></li>
+               
+                <li><a href="/dashboard">{{name}}</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+               
+                <li><a href="/logout">Выход</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="divfood">
+    <div class="form" >
+      <form class ="strava" action="/dashboard" method="get">
+            <div style="margin-top: 10px;">
+                <input style=' width:250px;' class="btn btn-primary" type="submit" value="  Strava  " />
+            </div>
+      </form>
+      <div>
+        
+        <div><p ></p></div>
+          <form  action="/login" method="post">
+              <div>
+                  <h3>Последняя пробежка дала тебе преимущество в борьбе с лишним весом в:</h3>
+                  <h1 id="wind"></h1>
+                  <h3>калории</h3>
+              </div>
+              
+          </form>
+      </div>
+      <form id="getFood"  action="/food/foodmarket" method="post">
+            <div style="margin-top: 50px;">
+                <button style=' width:250px;'  class="btn btn-primary" type="submit" value="Потратить">Потратить</button> 
+            </div>
+      </form>
+    </div>
+</div>
+

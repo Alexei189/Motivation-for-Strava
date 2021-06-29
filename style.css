@@ -1,0 +1,11 @@
+.divfood{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form{
+ display: block;
+ text-align: center;
+ width: ;
+}

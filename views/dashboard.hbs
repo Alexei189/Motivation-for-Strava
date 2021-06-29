@@ -1,0 +1,54 @@
+<div class="page-header">
+    <h1>Motivation for Strava</h1>
+</div>
+
+<nav  class="navbar navbar-default">
+    <div style="padding-left: 50px; padding-right:70px" class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul  class="nav navbar-nav">
+                <li ><a href="/">Главная</a></li>
+               
+                <li><a href="/dashboard">{{name}}, выбери свой путь!</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+               
+                <li><a href="/logout">Выход</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+
+ 
+<div style="margin-top: 70px;" class="divfood">
+      <div>
+
+            <form  action="/food" method="get">
+                  <div style="margin-top: 10px;  ">
+                      <input style=' width:250px;' class="btn btn-primary" type="submit" value="  Вызов  " />
+                  </div>
+            </form>
+
+      </div>
+      <div>
+
+            <form  action="/food" method="get">
+                  <div style="margin-top: 10px;">
+                      <input style=' width:250px;' class="btn btn-primary" type="submit" value="  Работаем за еду  " />
+                  </div>
+            </form>
+
+      </div>
+
+      <div>
+
+            <form  action="/food/gal" method="get">
+                  <div style="margin-top: 10px;">
+                      <input style=' width:250px;' class="btn btn-primary" type="submit" value="  Галера  " />
+                  </div>
+            </form>
+
+      </div>
+</div>
