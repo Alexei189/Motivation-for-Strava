@@ -23,7 +23,7 @@ stravaBut.addEventListener('submit', async(event)=>{
   );
 
   const result = await response.json();
-  //console.log (result.recent_run_totals.distance)
+  
 
   kkal = result.recent_run_totals.distance * 0.2;
   console.log(kkal)
