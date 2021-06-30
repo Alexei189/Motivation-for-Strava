@@ -15,7 +15,5 @@ router.post("/foodmarket", (req, res) => {
  
 });
 
-// router.get("/gal", (req, res) => {
-//   res.render("gal");
-// });
+
 module.exports = router;
